@@ -3,6 +3,35 @@
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto:300,400,500,700&display=swap');
+
 body {
     background-color: #fff;
+}
+
+#main {
+    padding: 0 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+header .logo {
+    display: block;
+    height: 32px;
+    width: auto;
+    float: left;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header .linkitem {
+    display: inline-block;
+    margin-right: 16px;
 }
